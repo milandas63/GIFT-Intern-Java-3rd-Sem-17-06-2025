@@ -1,0 +1,234 @@
+Course: JAVA-CORE
+Start Date: 17-06-2025 to 18-07-2025
+Time: Monday-Wednesday-Friday (03:00 pm-05:00 pm)
+WhatsApp group: GIFT-Intern-CoreJava-3rd-Sem
+GitHub-Link: https://github.com/milandas63/GIFT-Intern-Java-3rd-Sem-17-06-2025/
+Wifi Password: #A1B2C3E5D4#
+Mode-of-Class: Monday-Wednesday-Friday (3 days/week)
+
+Participants:
+MILAN DAS                       7978168568      milandas63@gmail.com                milandas63
+1	Asish Kumar Mishra          9337415800	
+2	Chiranjit Sethy             7849050885	
+3	Harichndan Nayak            9861305227	
+4	Soumyaranjan Jayasingh      7064785729	
+5	Amit Dawn                   8670955461	
+6	Amit Prasad                 6202765095	
+7	Ashish Kumar                8260655812	
+8	Satyajit Sahu               8260655812	
+9	Smruti Ranjan Behera        9348808413	
+10	Pratyush Prasad Nayak       6370937687	
+11	Suryanarayan Panda          8763191438	
+12	Ayush Kumar                 6203772679	
+13	Chanchal Gorai              9572249811	
+14	Prajwal Kumar Jha           9263608131	
+15	Subham Priyadarshan         9124961422	
+16	Sujal Kumar Gupta           7859049847	
+
+
++---------------------+
+| Tuesday 17-06-2025  |   Day-01
++---------------------+
+    =   Induction
+
++-----------------------+
+| Wednesday 18-06-2025  |   Day-02
++-----------------------+
+
+        for([initializer];[condition];[increment]) {
+			System.out.println("God is good");
+		}
+
+        for(;;) {
+            System.out.println("Hello World!");
+        }
+
+		int i;
+		for(;i<10;) {
+			System.out.println("God is good");
+			i++;
+		}
+
+		for(int i=0;i==4;i++) {
+			System.out.println("God is good");
+		}
+
+		String colors[] = {"Red","Green","Blue","Yellow","White","Black"};
+		for(String x:colors) {
+			System.out.println(x);
+		}
+
+    =   WAP to print a pyramid of astericks
+    =   WAP to print a dimond shape using astericks
+    =   WAP to print a palindrome triangle
+    =   WAP to print line-pyramid
+
+    =   ASSIGNMENT:
+        WAP to print the following figure:
+                         *
+                        * *
+                       *   *
+                      *     *
+                     *       *
+                    *         *
+                   *           *
+                  *             *
+                 *               *
+                *******************
+
++--------------------+
+| Friday 20-06-2025  |
++--------------------+
+    =   Class suspended due to Prime Minister Narendra Modi's programme at Janata Maidan
+
+
++--------------------+
+| Monday 23-06-2025  |   Day-03
++--------------------+
+    =   What is OOPs?
+        OOPs stands for Object Oriented Programming. It is a paradigm for writing programs.
+        It is a way of writing the programmes. There are several ways of writing programs:
+            1.  Procedure Oriented Programming
+            2.  Objected Oriented Programming
+
+    =   The OOPs paradigms are:
+        1.  Encapsulation
+            When the data and the code are kept together in one class wrapper, it is 
+            encapsulation.
+            Encapsulation has another concept for data hiding called Abstraction.
+
+        2.  Inheritance
+            A class where the program is written is inherited by another class. The
+            inheritance are of 2 types:
+                1.  Multiple inheritance
+
+                    Animal              Aqua        Land   Botanical
+                      |                  |            |      |
+                      +---------+--------+------------+      +
+                                |                            |
+                            Parent-1                     Parent-2
+                                 |                           |
+                                 +--------+------------------+
+                                          |
+                                        my-class
+
+                    ** Java doesn't support multiple inheritance. Java supports single
+                       inheritance
+
+                2.  Multilevel inheritance
+
+                    Java supports multilevel inheritance
+
+                      E
+                      +- D
+                      |   +- B
+                      |  |  +- A
+
+                    The ADAM class in Java is Object class. Class Object is the root 
+                    of the class hierarchy
+
+        3.  Polymorphism
+            A technique to give same name to several units. Different methods/functions
+            having same name.
+            Polymorphism are of 2 types:
+                1.  Overloading
+                    When 2 method members have same name within a single class, it is
+                    know as overloading
+
+                    class Work {
+                        void create() {
+                        }
+
+                        void create(int i) {
+                        }
+
+                        void create(String s) {
+                        }
+
+                        void create(String s, int a) {
+                        }
+
+                        void create(String s, int a) {      // Compilation Error
+                        }                                   // Similar method is already defined
+                    }
+
+                2.  Overriding
+                    
+                    class Sun {
+                        void distance() {
+                        }
+                    }
+
+                    class Earth extends Sun {
+                        void distance() {
+                        }
+                    }
+
+                Inheritance is explained using the following:
+
+                    1.  Parent      Child
+                    2.  Base        Derived
+                    3.  Super       Sub
+
+    =   What is the hierarchy of Java classes:
+
+        jar-file
+        +- package-1
+        |  +- Class-1
+        |  +- Class-2
+        |  +- Class-3
+        +- package-2
+        |  +- Class-101
+        |  +- Class-102
+        |  +- Class-103
+        +- package-3
+        |  +- Class-201
+        |  +- Class-202
+        |  +- Class-203
+        +- package-4
+        |  +- Class-1
+        |  +- Class-101
+        |  +- Class-201
+
+
+    =   Nomenclatures to define the syntax of a Java statement:
+        []      -   Optional entry
+        ()      -   Compulsory entry
+        {}      -   Any of the of the following
+        <>      -   User defined name
+        |       -   Choice separator
+
+    =   What is the syntax of a class?
+            [access-modifiers]
+            [modifiers]
+            class <name-of-class>
+            [extends <parent-class-name>]
+            [implements <interface-name-list...>]
+            {}
+
+            [access-modifiers][modifiers] class <name-of-class> [extends <parent-class-name>] [implements <interface-name-list...>] {
+                //  Field member (variable/data members)
+                //  Constructor member
+                //  Method member (functions)
+
+                //  Inner-classes
+            }
+
+    =   How can one class access another class?
+        There are 2 ways to access a class:
+            1.  By inheritance
+            2.  By creating an object
+
+
+    =   [access-modifier]:
+        Access modifiers are also known as access-specifiers. These keywords provide 
+        special access to the class.
+        There are 3 keywords used to specify the access:
+            1.  public
+                When public is defined to a class, the same class is accessible to
+                all other classes in the same package and all other packages.
+            2.  protected
+            3.  private
+            4.  <undefined>
+
+    =   
