@@ -1,0 +1,336 @@
+Course: JAVA-CORE
+Start Date: 17-06-2025 to 18-07-2025
+Time: Monday-Wednesday-Friday (03:00 pm-05:00 pm)
+WhatsApp group: GIFT-Intern-CoreJava-3rd-Sem
+GitHub-Link: https://github.com/milandas63/GIFT-Intern-Java-3rd-Sem-17-06-2025/
+Wifi Password: #A1B2C3E5D4#
+Mode-of-Class: Monday-Wednesday-Friday (3 days/week)
+
+Participants:
+MILAN DAS                       7978168568      milandas63@gmail.com                milandas63
+1	Asish Kumar Mishra          9337415800	
+2	Chiranjit Sethy             7849050885	
+3	Harichndan Nayak            9861305227	
+4	Soumyaranjan Jayasingh      7064785729	
+5	Amit Dawn                   8670955461	
+6	Amit Prasad                 6202765095	
+7	Ashish Kumar                8260655812	
+8	Satyajit Sahu               8260655812	
+9	Smruti Ranjan Behera        9348808413	
+10	Pratyush Prasad Nayak       6370937687	
+11	Suryanarayan Panda          8763191438	
+12	Ayush Kumar                 6203772679	
+13	Chanchal Gorai              9572249811	
+14	Prajwal Kumar Jha           9263608131	
+15	Subham Priyadarshan         9124961422	
+16	Sujal Kumar Gupta           7859049847	
+
+
++---------------------+
+| Tuesday 17-06-2025  |   Day-01
++---------------------+
+    =   Induction
+
++-----------------------+
+| Wednesday 18-06-2025  |   Day-02
++-----------------------+
+
+        for([initializer];[condition];[increment]) {
+			System.out.println("God is good");
+		}
+
+        for(;;) {
+            System.out.println("Hello World!");
+        }
+
+		int i;
+		for(;i<10;) {
+			System.out.println("God is good");
+			i++;
+		}
+
+		for(int i=0;i==4;i++) {
+			System.out.println("God is good");
+		}
+
+		String colors[] = {"Red","Green","Blue","Yellow","White","Black"};
+		for(String x:colors) {
+			System.out.println(x);
+		}
+
+    =   WAP to print a pyramid of astericks
+    =   WAP to print a dimond shape using astericks
+    =   WAP to print a palindrome triangle
+    =   WAP to print line-pyramid
+
+    =   ASSIGNMENT:
+        WAP to print the following figure:
+                         *
+                        * *
+                       *   *
+                      *     *
+                     *       *
+                    *         *
+                   *           *
+                  *             *
+                 *               *
+                *******************
+
++--------------------+
+| Friday 20-06-2025  |
++--------------------+
+    =   Class suspended due to Prime Minister Narendra Modi's programme at Janata Maidan
+
+
++--------------------+
+| Monday 23-06-2025  |   Day-03
++--------------------+
+    =   What is OOPs?
+        OOPs stands for Object Oriented Programming. It is a paradigm for writing programs.
+        It is a way of writing the programmes. There are several ways of writing programs:
+            1.  Procedure Oriented Programming
+            2.  Objected Oriented Programming
+
+    =   The OOPs paradigms are:
+        1.  Encapsulation
+            When the data and the code are kept together in one class wrapper, it is 
+            encapsulation.
+            Encapsulation has another concept for data hiding called Abstraction.
+
+        2.  Inheritance
+            A class where the program is written is inherited by another class. The
+            inheritance are of 2 types:
+                1.  Multiple inheritance
+
+                    Animal              Aqua        Land   Botanical
+                      |                  |            |      |
+                      +---------+--------+------------+      +
+                                |                            |
+                            Parent-1                     Parent-2
+                                 |                           |
+                                 +--------+------------------+
+                                          |
+                                        my-class
+
+                    ** Java doesn't support multiple inheritance. Java supports single
+                       inheritance
+
+                2.  Multilevel inheritance
+
+                    Java supports multilevel inheritance
+
+                      E
+                      +- D
+                      |  +- B
+                      |  |  +- A
+
+                    The ADAM class in Java is Object class. Class Object is the root 
+                    of the class hierarchy
+
+        3.  Polymorphism
+            A technique to give same name to several units. Different methods/functions
+            having same name.
+            Polymorphism are of 2 types:
+                1.  Overloading
+                    When 2 method members have same name within a single class, it is
+                    know as overloading
+
+                    class Work {
+                        void create() {
+                        }
+
+                        void create(int i) {
+                        }
+
+                        void create(String s) {
+                        }
+
+                        void create(String s, int a) {
+                        }
+
+                        void create(String s, int a) {      // Compilation Error
+                        }                                   // Similar method is already defined
+                    }
+
+                2.  Overriding
+                    
+                    class Sun {
+                        void distance() {
+                        }
+                    }
+
+                    class Earth extends Sun {
+                        void distance() {
+                        }
+                    }
+
+                Inheritance is explained using the following:
+
+                    1.  Parent      Child
+                    2.  Base        Derived
+                    3.  Super       Sub
+
+    =   What is the hierarchy of Java classes:
+
+        jar-file
+        +- package-1
+        |  +- Class-1
+        |  +- Class-2
+        |  +- Class-3
+        +- package-2
+        |  +- Class-101
+        |  +- Class-102
+        |  +- Class-103
+        +- package-3
+        |  +- Class-201
+        |  +- Class-202
+        |  +- Class-203
+        +- package-4
+        |  +- Class-1
+        |  +- Class-101
+        |  +- Class-201
+
+
+    =   Nomenclatures to define the syntax of a Java statement:
+        []      -   Optional entry
+        ()      -   Compulsory entry
+        {}      -   Any of the of the following
+        <>      -   User defined name
+        |       -   Choice separator
+
+    =   What is the syntax of a class?
+            [access-modifiers]
+            [modifiers]
+            class <name-of-class>
+            [extends <parent-class-name>]
+            [implements <interface-name-list...>]
+            {}
+
+            [access-modifiers][modifiers] class <name-of-class> [extends <parent-class-name>] [implements <interface-name-list...>] {
+                //  Field member (variable/data members)
+                //  Constructor member
+                //  Method member (functions)
+
+                //  Inner-classes
+            }
+
+    =   How can one class access another class?
+        There are 2 ways to access a class:
+            1.  By inheritance
+            2.  By creating an object
+
+    =   [access-modifier]:
+        Access modifiers are also known as access-specifiers. These keywords provide 
+        special access to the class.
+        There are 3 keywords used to specify the access:
+            1.  public
+                When public is defined to a class, the same class is accessible to
+                all other classes in the same package and all other packages.
+            2.  protected
+            3.  private
+            4.  <undefined>
+
++-----------------------+
+| Wednesday 25-06-2025  |   Day-04
++-----------------------+
+    =   How many keywords are there in Java?
+            LIST OF RESERVE WORDS/KEY WORDS IN JAVA (53 words)
+            abstract    continue    for         new         switch
+            assert***   default     goto*       package     synchronized
+            boolean     do          if          private     this
+            break       double      implements  protected   throw
+            byte        else        import      public      throws
+            case        enum****    instanceof  return      transient
+            catch       extends     int         short       try
+            char        final       interface   static      void
+            class       finally     long        strictfp**  volatile
+            const*      float       native      super       while
+            null        true        false
+
+            *       not used
+            **      added in 1.2
+            ***     added in 1.4
+            ****    added in 5.0
+
+    =   The Java programming language comes in 3 flavors:
+        1.  Java2SE (Java 2 Standard Edition)
+        2.  Java2EE (Java 2 Enterprise Edition)
+        3.  Java2ME (Java 2 Micro Edition)
+
+    =   What are the features of a computer programming language?
+        1.  The program is written in sequence of line number
+        2.  It can jump/branch from one line to another line
+        3.  Ability to compute
+        4.  Ability to loop across a set of lines
+        5.  Ability to check condition
+
+    =   How many types of programming languages are there?
+        There are 3 types of programming languages:
+        1.  Passive language
+            Those languages that don't adhere the normal features of a computer programming language.
+            These languages are created for presentation purpose. Example of such languages are:
+            >   HTML (Hyper Text Markup Language)
+            >   SGML (Simple Generalized Markup Language)
+
+        2.  Active language
+            Computer programming was created to work like active languages. Active languages are
+            problem solvers. It can solve mission critical problems. They are executed in the machine
+            in which it resides. They use the resources of the resident machine.
+            Example:
+                C, C++, Java, Python, etc
+            
+        3.  Dynamic language
+            Those languages that are resident in the server machine. On receiving request to execute,
+            it is executed in the server machine using the server resources and only the output of the
+            program in form of passive language is transmitted to the requesting machine.
+            Example:
+            >   JSP (Java Server Pages)
+            >   ASP (Active Server Pages)
+            >   PHP (Hypertext Preprocessor)
+
+    =   Java programmes are of 3 types:
+        1.  Application
+            Starts from main() method
+        2.  Applet
+            
+        3.  Servlet
+
+    =   What happens when a class is instanciated to an object:
+
+        Primary     s1   s2  s3        c1  c2        math        t1     <--- object
+                     \   |   /         |   /           |         |
+            ----------\--|--/----------|--/------------|---------|---   instanciation
+                       \ | /           | /             |         |
+        Secondary       \|/            |/              |         |
+                      String         Class           Math      Thread   <--- class
+
+        A class is tranformed to an object with the help new operator.
+
+    =   8 bit = 1 byte
+        00
+        01
+        10
+        11
+
+    =   String data is stored in the StringPool. StringPool is just like an array. The index of
+        the array is stored in the variable.
+
+    =   APPLIED RULES FOR MODIFIERS
+       --------------------------------------------------------------------------
+                                                    OUTER   INNER   OUTER   INNER
+        SL  MODIFIER        FIELD   METHOD  CONSTR  CLASS   CLASS  INTERF  INTERF
+       --------------------------------------------------------------------------
+        1.  public          yes     yes     yes     yes     no      yes     no
+        2.  protected       yes     yes     yes     no      yes     no      yes
+        3.  private         yes     yes     yes     no      yes     no      yes
+        4.  <undefined>     yes     yes     yes     yes     no      yes     no
+       --------------------------------------------------------------------------
+        5.  abstract        no      yes     no      yes     yes     yes     yes
+        6.  final           yes     yes     no      yes     yes     no      no
+        7.  static          yes     yes     no      no      yes     no      yes
+        8.  native          no      yes     no      no      no      no      no
+        9.  synchronized    no      yes     no      no      no      no      no
+       10.  transient       yes     no      no      no      no      no      no
+       11.  volatile        yes     no      no      no      no      no      no
+       12.  strictfp        no      yes     no      yes     yes     yes     yes
+       --------------------------------------------------------------------------
