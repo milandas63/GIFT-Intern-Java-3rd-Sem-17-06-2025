@@ -734,3 +734,19 @@ MILAN DAS                       7978168568      milandas63@gmail.com            
             4, "Soumyaranjan Jayasingh", "7064785729
             5, "Amit Dawn", "8670955461
 
+    =   What is GUI programming?
+        GUI stands for Graphical User Interface.
+        Java has provided java.awt package to developing GUI programming. The java.awt package uses
+        the components of the default operation system. When a program is developed in Windows and runs
+        of Linux, the look and feel of the program changes. 
+
+        Because java.awt is not consistent, Java provided javax.swing package in JDK 1.4
+
+        javax.swing provides a varity of Container and Components:
+
+            CONTAINER                           COMPONENT
+            1. JFrame                           1. JLabel
+            2. JPanel                           2. JTextField
+            3. JWindow                          3. JButton
+
+        
