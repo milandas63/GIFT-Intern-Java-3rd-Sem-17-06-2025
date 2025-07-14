@@ -766,6 +766,26 @@ MILAN DAS                       7978168568      milandas63@gmail.com            
 +--------------------+
 | Monday 14-07-2025  |   Day-11
 +--------------------+
+    =   What is JVM>?
+    =   What is JIT?>
+    =   What is the name of Java compiler?
+    =   What is grabge collection?
+    =   What is reclaiming of blocked memory location?
+    =   What is Java Thread?
+        When more that one program/process run concurrently, it is known as Java Thread.
+        There are 2 ways how the Thread programs are created.
+        1)  >   By inheriting the Thread Class
+            >   By Overriding the run() method
+            >   By calling the start() method
+        2)  >   By implementing the Runnable Interface
+            >   
 
-
+    int total = 0;                                              +------------------------------+
+    {                                                    total  |            |                 |
+        int p = 2;                                              +------------+                 |
+        total = total + p;                                   p  |            |                 |
+    }                                                           +------------+                 |
+    System.out.println(p);                                      |                              |
+    System.out.println(total);                                  +------------------------------|
+    int x = 25;
 
